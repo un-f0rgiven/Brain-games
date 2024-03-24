@@ -9,7 +9,11 @@ from brain_games.engine import tell_rules
 from brain_games.engine import check_answer
 from brain_games.games.game_brain_progression import brain_progression
 
-print("Welcome to the Brain Games!")
+
+def main():
+    print("Welcome to the Brain Games!")
+
+
 player = input('May I have your name? ')
 print(f'Hello, {player}!')
 
@@ -45,3 +49,6 @@ while i < 4:
 
 else:
     print(f'Congratulations, {player}!')
+
+if __name__ == "__main__":
+    main()
