@@ -18,7 +18,7 @@ def main():
 player = input('May I have your name? ')
 print(f'Hello, {player}!')
 
-game = 'brain-prime'
+game = 'brain_prime'
 
 tell_rules(game)
 
