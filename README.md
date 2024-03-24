@@ -35,7 +35,7 @@ https://asciinema.org/a/ekilze0JiJi6V0pevzaIAhAN9
 ### Asciinema запуск игры Проверка на чётность:
 https://asciinema.org/a/iIqa1YvjOcpvG5kaWHyB6aBUI
 
-### Asciinema запуск игры Калькуляторп:
+### Asciinema запуск игры Калькулятор:
 https://asciinema.org/a/5jmULOrJaMx3qcDGDQqCvZzey
 
 ### Asciinema запуск игры Наибольший общий делитель:
