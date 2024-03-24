@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path.insert(0, '/home/alexander/python-project-49/brain_games')
+sys.path.insert(0, '/home/alexander/python-project-49')
 
 import random
 import math
 
-from engine import tell_rules
-from engine import check_answer
-from games.game_brain_prime import brain_prime
+from brain_games.engine import tell_rules
+from brain_games.engine import check_answer
+from brain_games.games.game_brain_prime import brain_prime
 
 print("Welcome to the Brain Games!")
 player = input('May I have your name? ')
