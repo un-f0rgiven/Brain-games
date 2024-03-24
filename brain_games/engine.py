@@ -7,9 +7,9 @@ def tell_rules(game):
         print('What is the result of the expression?')
     elif game == 'brain_gcd':
         print('Find the greatest common divisor of given numbers.')
-    elif game == 'brain-prime':
+    elif game == 'brain_prime':
         print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    elif game == 'brain-progression':
+    elif game == 'brain_progression':
         print('What number is missing in the progression?')
 
 
