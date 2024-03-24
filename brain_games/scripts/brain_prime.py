@@ -38,11 +38,3 @@ while i < 4:
 
 else:
     print(f'Congratulations, {player}!')
-
-
-def main():
-    return ''
-
-
-if __name__ == '__main__':
-    main()
