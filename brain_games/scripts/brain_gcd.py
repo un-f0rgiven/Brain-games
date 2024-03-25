@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
-import sys
-sys.path.insert(0, '/home/alexander/python-project-49')
-
 import random
 
 from brain_games.engine import tell_rules
 from brain_games.engine import check_answer
 from brain_games.games.game_brain_gcd import brain_gcd
+
+import sys
+sys.path.insert(0, '/home/alexander/python-project-49')
 
 
 def main():
