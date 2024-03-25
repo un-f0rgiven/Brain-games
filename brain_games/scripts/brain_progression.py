@@ -7,7 +7,7 @@ from brain_games.engine import check_answer
 from brain_games.games.game_brain_progression import brain_progression
 
 import sys
-sys.path.insert(0, '/home/alexander/python-project-49/brain_games')
+sys.path.insert(0, '/home/alexander/python-project-49')
 
 
 def main():
