@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
+import random
 
-def brain_even(a):
+
+def generate_round():
+    a = random.randint(0, 100)
+
+    question = a
+
     if a % 2 == 0:
-        return 'yes'
+        correct_answer = 'yes'
     else:
-        return 'no'
+        correct_answer = 'no'
+
+    return correct_answer, question
+
+
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
