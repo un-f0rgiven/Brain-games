@@ -2,11 +2,10 @@
 
 
 def main():
-    return "Welcome to the Brain Games!"
+    print("Welcome to the Brain Games!")
 
 
 def run_game(game):
-    print("Welcome to the Brain Games!")
     player = input('May I have your name? ')
 
     print(f'Hello, {player}!')
