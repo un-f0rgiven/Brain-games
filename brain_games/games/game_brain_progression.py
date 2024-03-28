@@ -23,4 +23,4 @@ def generate_round():
     return correct_answer, question
 
 
-
+DESCRIPTION = 'What number is missing in the progression?'
