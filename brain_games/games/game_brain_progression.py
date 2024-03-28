@@ -5,7 +5,7 @@ import random
 def generate_round():
 
     a = random.randint(1, 10)
-    b = random.randint(0, 9)
+    b = random.randint(1, 9)
     step = random.randint(1, 10)
 
     progression = [a]
