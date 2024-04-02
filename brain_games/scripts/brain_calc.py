@@ -1,16 +1,13 @@
 #!/usr/bin/env python3
 from brain_games.engine import run_game
-import brain_games.games.game_brain_calc
-
-import sys
-sys.path.insert(0, '/home/alexander/python-project-49')
+from brain_games.games import game_brain_calc
 
 
 def main():
     print("Welcome to the Brain Games!")
 
 
-run_game(brain_games.games.game_brain_calc)
+run_game(game_brain_calc)
 
 
 if __name__ == "__main__":

@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 
 
-def main():
-    print("Welcome to the Brain Games!")
-
-
 def run_game(game):
+    print("Welcome to the Brain Games!")
     player = input('May I have your name? ')
 
     print(f'Hello, {player}!')
@@ -34,7 +31,3 @@ def run_game(game):
         i = i + 1
     else:
         print(f'Congratulations, {player}!')
-
-
-if __name__ == "__main__":
-    main()
